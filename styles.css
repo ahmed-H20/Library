@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&family=Gabarito&family=Roboto:wght@100;300;400&family=Sofia+Sans+Condensed:wght@200&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -16,4 +18,11 @@ body{
     width: 60%;
     display: flex;
     justify-content: space-between;
+}
+
+.container h1{
+    margin: 0;
+    padding: 0;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
 }
