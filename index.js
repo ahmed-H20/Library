@@ -11,3 +11,7 @@ function addBookToLibrary(name, author, pages_num, read) {
   let book = new Book (name, author, pages_num, read);
   myLibrary.push(book);
 }
+
+for(let i = 0; i<myLibrary.length; i++){
+    console.log(i);
+}
