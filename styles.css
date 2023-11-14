@@ -26,3 +26,12 @@ body{
     color: #fafafa;
     font-family: 'Roboto', sans-serif;
 }
+
+.container button{
+    padding: 5px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    color: #082f49;
+}
