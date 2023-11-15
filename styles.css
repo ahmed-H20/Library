@@ -56,3 +56,50 @@ body{
     color: #38bdf8;
     background-color: #fafafa;    
 }
+
+.main #bookform{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #000;
+    box-shadow: #000 20%;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background-color: #082f49;
+    color: #f0f9ff;
+}
+
+.main #bookform label{
+    margin-top: 30px;
+}
+
+.main #bookform input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #f0fdfa;
+}
+
+label[for="read"]{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.main #bookform #read{
+   width: 30px;
+   height: 30px;   
+}
+
+
+.main #bookform input[type="submit"]{
+    margin: 30px auto 10px ;
+    font-size: 1em;
+    color: #f0f9ff;
+    background-color: #0369a1;
+    border: none;
+    width: 80%;
+    
+}
