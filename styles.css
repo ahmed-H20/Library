@@ -79,6 +79,7 @@ body{
     height: 50px;
     border-radius: 10px;
     background-color: #f0fdfa;
+    font-size: large;
 }
 
 label[for="read"]{
@@ -100,6 +101,5 @@ label[for="read"]{
     color: #f0f9ff;
     background-color: #0369a1;
     border: none;
-    width: 80%;
-    
+    width: 80%;    
 }
