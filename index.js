@@ -9,18 +9,22 @@ function Book(name, author, pages_num, read) {
     this.read = read;
 }
 
-function addBookToLibrary(name, author, pages_num, read) {
-  let book = new Book (name, author, pages_num, read);
-  myLibrary.push(book);
+function addBookToLibrary() {
+    let name = document.querySelector("#title").value;
+    let author = document.querySelector("#author").value;
+    let pages_num = document.querySelector("#pages").value;
+    let read = document.querySelector("#read").checked;
+    let book = new Book (name, author, pages_num, read);    
+    myLibrary.push(book);
 }
-
-for(let i = 0; i<myLibrary.length; i++){
-    console.log(i);
-}
-
 
 let btnnewbook = document.querySelector("#btn-new-book");
 btnnewbook.addEventListener("click",function(){
     let bookForm = document.querySelector("#bookform");
     bookForm.style.visibility="visible";
 });
+
+document.querySelector("#bookform").addEventListener("submit", function(){
+    event.preventDefault();
+    addBookToLibrary();
+})
