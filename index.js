@@ -1,3 +1,5 @@
+
+
 const myLibrary = [];
 
 function Book(name, author, pages_num, read) {
@@ -16,3 +18,9 @@ for(let i = 0; i<myLibrary.length; i++){
     console.log(i);
 }
 
+
+let btnnewbook = document.querySelector("#btn-new-book");
+btnnewbook.addEventListener("click",function(){
+    let bookForm = document.querySelector("#bookform");
+    bookForm.style.visibility="visible"
+});
