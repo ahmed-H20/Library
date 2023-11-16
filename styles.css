@@ -54,10 +54,12 @@ body{
 
 .main #btn-new-book:hover{
     color: #38bdf8;
-    background-color: #fafafa;    
+    background-color: #fafafa;   
 }
 
 .main #bookform{
+    visibility: hidden;
+    position: absolute;
     display: flex;
     flex-direction: column;
     padding: 10px;

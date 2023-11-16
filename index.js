@@ -22,5 +22,5 @@ for(let i = 0; i<myLibrary.length; i++){
 let btnnewbook = document.querySelector("#btn-new-book");
 btnnewbook.addEventListener("click",function(){
     let bookForm = document.querySelector("#bookform");
-    bookForm.style.visibility="visible"
+    bookForm.style.visibility="visible";
 });
