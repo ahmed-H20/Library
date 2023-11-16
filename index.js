@@ -18,13 +18,14 @@ function addBookToLibrary() {
     myLibrary.push(book);
 }
 
+let bookForm = document.querySelector("#bookform");
 let btnnewbook = document.querySelector("#btn-new-book");
-btnnewbook.addEventListener("click",function(){
-    let bookForm = document.querySelector("#bookform");
+btnnewbook.addEventListener("click",function(){    
     bookForm.style.visibility="visible";
 });
 
 document.querySelector("#bookform").addEventListener("submit", function(){
     event.preventDefault();
     addBookToLibrary();
+    bookForm.style.visibility="hidden";
 })
