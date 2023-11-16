@@ -27,7 +27,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.container button{
+.header .container button{
     padding: 5px 20px;
     font-size: 20px;
     border: none;
@@ -104,4 +104,50 @@ label[for="read"]{
     background-color: #0369a1;
     border: none;
     width: 80%;    
+}
+
+.library{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.library .container{    
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.library .container .card{
+    border: 1px solid #082f49;
+    padding: 10px ;
+    color: #fff7ed;
+    background-color: #082f49;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5em;
+}
+
+.library .container .card p{
+    padding: 0;
+    margin: 0;
+}
+
+.library .container .card button{
+    margin: 5px 0;
+    padding: 2px 10px;
+    font-size: 1em;
+    width: 150px;
+    border-radius: 10px;
+    border: none;   
+}
+
+.library .container .card #remove{
+    background-color: #dc2626;
 }
